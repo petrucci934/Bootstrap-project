@@ -1,3 +1,41 @@
- h1{
-    color: red;
+/*Comentarios Gerais*/
+body{
+    font-family: 'roboto' ,sans-serif;
+
+}
+.row{
+    margin: 0ch;
+}
+.container{
+    padding: 70px 0;
+}
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+/* Barra de navegação*/
+header, .navbar {
+    background-color: #353D41;
+}
+nav-container{
+    padding: top 0;
+    padding-bottom: 0;
+}
+#logo{
+    width: 75px;
+}
+.navbar-brand{
+    padding: 0;
+    color: #fff;
+}
+.navbar-brnad:hover{
+    color: #fff;
+}
+#navbar-links a{
+    color: #fff;
+}
+ /* Se a fonte for de 15px de pad ele pagará 80% do tamanho da fonte */
+ .navbar-expand-lg  .navbar-nav  .nav-link{
+    padding: 1rem , 8rem; 
+                                     
 }
